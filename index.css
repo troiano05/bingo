@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    background-color: cornflowerblue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+}
+
+#cartelas {
+    width: 70%;
+    height: 100%;
+    background-color: darkslategrey;
+}
+
+#a_botoes,
+#a_botao {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: darkslateblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#a_cartelas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.numero-marcado {
+    color: red;
+}
+
+.numero-central {
+    background-color: yellow;
+}
+
+#vencedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#numeros {
+    width: 20%;
+    height: 100%;
+    background-color: darkslategrey;
+}
+
+#a_vencedor {
+    width: 20%;
+    height: 100%;
+    background-color: darkslategrey;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    background-color: cornflowerblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
